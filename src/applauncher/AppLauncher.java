@@ -11,7 +11,7 @@ public class AppLauncher {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-		new FootBallApp().setVisible(true);
+		new FootballApp().setVisible(true);
 
             }
         });

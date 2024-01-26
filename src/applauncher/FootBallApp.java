@@ -69,7 +69,7 @@ public class FootballApp extends JFrame{
                 mainPanel.removeAll();
                 
                 // get league Data
-                leagueData = FootballAppAPI.getLeagueData("italy");
+                leagueData = FootBallAppAPI.getLeagueData("italy");
                 
                 for (Object object : leagueData) {
                     
@@ -149,7 +149,7 @@ public class FootballApp extends JFrame{
                    mainPanel.removeAll();
                    
                    // get league Data
-                   leagueData = FootballAppAPI.getLeagueData("germany");
+                   leagueData = FootBallAppAPI.getLeagueData("germany");
                    
                    for (Object object : leagueData) {
                        
@@ -231,7 +231,7 @@ public class FootballApp extends JFrame{
                    mainPanel.removeAll();
                    
                    // get league Data
-                   leagueData = FootballAppAPI.getLeagueData("iran");
+                   leagueData = FootBallAppAPI.getLeagueData("iran");
                    
                    for (Object object : leagueData) {
                        
@@ -313,7 +313,7 @@ public class FootballApp extends JFrame{
                    mainPanel.removeAll();
                    
                    // get league Data
-                   leagueData = FootballAppAPI.getLeagueData("spain");
+                   leagueData = FootBallAppAPI.getLeagueData("spain");
                    
                    for (Object object : leagueData) {
                        
